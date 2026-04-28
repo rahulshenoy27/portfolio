@@ -93,9 +93,9 @@ export default function HomePage() {
           />
           <div className="grid gap-3 sm:grid-cols-3">
             {[
-              ["Email", "rahul.shenoy@example.com", "mailto:rahul.shenoy@example.com"],
-              ["LinkedIn", "linkedin.com/in/rahulshenoy", "https://www.linkedin.com/"],
-              ["GitHub", "github.com/rahulshenoy", "https://github.com/"]
+              ["Email", "rahulshenoy1999@gmail.com", "mailto:rahulshenoy1999@gmail.com"],
+              ["LinkedIn", "linkedin.com/in/rahulshenoy27", "https://www.linkedin.com/in/rahulshenoy27/"],
+              ["GitHub", "github.com/rahulshenoy27", "https://github.com/rahulshenoy27"]
             ].map(([label, value, href]) => (
               <Link key={label} href={href} className="rounded-lg border border-line bg-surface p-5 transition hover:border-accent hover:bg-panel-soft">
                 <Mail className="h-5 w-5 text-accent" aria-hidden="true" />
