@@ -30,14 +30,15 @@ export default function HomePage() {
               View Projects
               <ArrowRight className="h-4 w-4" aria-hidden="true" />
             </Link>
-            <Link
+            <a
               href="/resume.pdf"
-              download
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 rounded-md border border-line bg-panel px-5 py-3 text-sm font-semibold text-white transition hover:border-accent hover:bg-panel-soft"
             >
               Download Resume
               <ArrowDownToLine className="h-4 w-4" aria-hidden="true" />
-            </Link>
+            </a>
           </div>
         </div>
 
